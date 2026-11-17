@@ -36,6 +36,8 @@ android {
 }
 
 dependencies {
+    implementation( libs.androidx.glance.appwidget )
+    implementation( libs.androidx.glance.material3 )
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
